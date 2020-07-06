@@ -1,0 +1,6 @@
+framework module libGLTools {
+  umbrella header "libGLTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

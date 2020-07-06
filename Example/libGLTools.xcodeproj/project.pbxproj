@@ -27,11 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		38484FDCB026120D791A667F /* libGLTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = libGLTools.podspec; path = ../libGLTools.podspec; sourceTree = "<group>"; };
-		43320BEB01116324E4FF11D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		38484FDCB026120D791A667F /* libGLTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libGLTools.podspec; path = ../libGLTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43320BEB01116324E4FF11D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7B8A1FBE0F298D7C2BE5FFF2 /* Pods-libGLTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGLTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-libGLTools_Example/Pods-libGLTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7E910EE5943210D76FD18326 /* Pods-libGLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGLTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-libGLTools_Tests/Pods-libGLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		843B02F760E7F66D72949CEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		843B02F760E7F66D72949CEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9317E691B1E552A1A467D668 /* Pods_libGLTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libGLTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF11CC6C2F34DFFEC2C84A02 /* Pods_libGLTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libGLTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59CA1B5654764A4723AF963 /* Pods-libGLTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libGLTools_Example.release.xcconfig"; path = "Target Support Files/Pods-libGLTools_Example/Pods-libGLTools_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +76,6 @@
 				ED936D840E27F59994352779 /* Pods-libGLTools_Tests.debug.xcconfig */,
 				7E910EE5943210D76FD18326 /* Pods-libGLTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
