@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'libGLTools_Example' do
+  pod 'libGLTools', :path => '../'
+
+  target 'libGLTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
