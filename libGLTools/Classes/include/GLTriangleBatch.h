@@ -66,7 +66,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 #include <OpenGLES/ES2/glext.h>
 #define OPENGL_ES
 #else
-#include <GL/glew.h>
+#include "glew.h"
 #include <OpenGL/gl.h>		// Apple OpenGL haders (version depends on OS X SDK version)
 #endif
 #endif
@@ -77,9 +77,9 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 #include <glew.h>
 #endif
 
-#include <math3d.h>
-#include <GLBatchBase.h>
-#include <GLShaderManager.h>
+#include "math3d.h"
+#include "GLBatchBase.h"
+#include "GLShaderManager.h"
 
 #define VERTEX_DATA     0
 #define NORMAL_DATA     1

@@ -59,7 +59,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 #include <OpenGLES/ES2/glext.h>
 #define OPENGL_ES
 #else
-#include <GL/glew.h>
+#include "glew.h"
 #include <OpenGL/gl.h>		// Apple OpenGL haders (version depends on OS X SDK version)
 #endif
 #endif
@@ -85,9 +85,9 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 // Universal includes
 #include <stdio.h>
 #include <math.h>
-#include <math3d.h>
-#include <GLBatch.h>
-#include <GLTriangleBatch.h>
+#include "math3d.h"
+#include "GLBatch.h"
+#include "GLTriangleBatch.h"
 
    
 ///////////////////////////////////////////////////////

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'libGLTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of libGLTools.'
+  s.summary          = 'OpenGL libGLTools.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,23 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lijincheng/libGLTools'
+  s.homepage         = 'https://github.com/lgc107/libGLTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lijincheng' => 'Harryljc@163.com' }
-  s.source           = { :git => 'https://github.com/lijincheng/libGLTools.git', :tag => s.version.to_s }
+  s.author           = { 'ljc107' => 'Harryljc@163.com' }
+  s.source           = { :git => 'https://github.com/lgc107/libGLTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
 
-  s.source_files = 'libGLTools/Classes/**/*'
-
+  s.source_files = 'libGLTools/Classes/**/*.{h,m}'
+  s.vendored_libraries = 'libGLTools/Classes/**/*.a'
   # s.resource_bundles = {
   #   'libGLTools' => ['libGLTools/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'Cocoa'
+   s.public_header_files = 'libGLTools/Classes/**/*.h'
+   s.frameworks = 'OpenGL','GLUT'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
